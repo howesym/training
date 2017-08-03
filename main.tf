@@ -17,7 +17,6 @@
 #
 #     Idol-training-grasshopper
 #
-
 terraform {
   backend  "atlas" {
     name = "howesym/training"
@@ -50,7 +49,7 @@ resource "aws_instance" "web" {
     "index"    = "${count.index}"
   }
 
-  count = "2"
+  count = "3"
 }
 
 output "public_ip" {
