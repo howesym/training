@@ -1,4 +1,4 @@
-.#
+#
 # DO NOT DELETE THESE LINES!
 #
 # Your AMI ID is:
